@@ -13,7 +13,6 @@ test('mensagem valor maior', () => {
 });
 
 
-
     // - Implemente uma função que irá receber 2 valores. A função deverá exibir qual dos dois valores é o maior.
     // - Crie o teste para esse código. Execute o teste.
     // - Faça o upload desse código para o infinityFree.
