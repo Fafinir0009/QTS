@@ -19,5 +19,3 @@ test('mensagem par ou impar', () => {
 test('mensagem voto', () => {
     expect(exibirVoto(18)).toBe('Deve votar');
 });
-
-test(mens)
