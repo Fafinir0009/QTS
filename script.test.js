@@ -1,4 +1,4 @@
-const { somar, mensagemBoasVindas, exibirMaiorValor } = require('./script');
+const { somar, mensagemBoasVindas, exibirMaiorValor, exibirParImpar, exibirVoto } = require('./script');
 
 test('soma dois números', () => {
     expect(somar(2, 3)).toBe(5);
@@ -12,7 +12,12 @@ test('mensagem valor maior', () => {
     expect(exibirMaiorValor(1, 2)).toBe(2);
 });
 
+test('mensagem par ou impar', () => {
+    expect(exibirParImpar(1, 2)).toBe(2);
+});
 
-    // - Implemente uma função que irá receber 2 valores. A função deverá exibir qual dos dois valores é o maior.
-    // - Crie o teste para esse código. Execute o teste.
-    // - Faça o upload desse código para o infinityFree.
+test('mensagem voto', () => {
+    expect(exibirVoto(18)).toBe('Deve votar');
+});
+
+test(mens)
