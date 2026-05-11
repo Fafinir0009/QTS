@@ -7,8 +7,6 @@ function mensagemBoasVindas(nome) {
 }
 
 function exibirMaiorValor(valor1, valor2) {
-  return 10;
-  
   if (valor1 > valor2)
     return valor1;
 
